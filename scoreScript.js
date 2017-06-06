@@ -59,6 +59,7 @@ firstPlayerButton.addEventListener("click",function(){
 		if(firstPlayerScore === winningScore){
 			firstPlayerDisplay.classList.add("winner");
 			gameOver = true;
+			alert(p1NamePrompt + " is the winner!")
 
 		}
 		firstPlayerDisplay.textContent = firstPlayerScore;
@@ -72,6 +73,7 @@ secondPlayerButton.addEventListener("click",function(){
 		if(secondPlayerScore === winningScore){
 			secondPlayerDisplay.classList.add("winner");
 			gameOver = true;
+			alert(p2NamePrompt + " is the winner!")
 
 		}
 		secondPlayerDisplay.textContent = secondPlayerScore;
