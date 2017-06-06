@@ -1,0 +1,77 @@
+
+body {
+	background-color: black;
+	font-family: 'Bangers', cursive;
+	font-size: 48px;
+	color: #FFFFFF;
+	border: 5px solid white;
+	margin: 0;
+	padding: 0;
+}
+
+#score1, #score2 {
+	text-align: center;
+}
+
+#reset {
+	text-align: center;
+}
+
+#score1num, #score2num {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 80px;
+	color: #EAB940;
+	border: 3px solid white;
+	margin: 20px;
+	padding: 30px;
+
+}
+
+#firstTo {
+	color: #EAB940;
+}
+
+button {
+	color: black;
+	background-color: white;
+	border: none;
+	font-size: 20px;
+	font-family: 'Bangers', cursive;
+	padding: 7px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+
+}
+
+.winner {
+	color: red;
+}
+
+#signature {
+	color: red;
+	font-size: 15px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+	.row {
+	display: flex;
+	flex-direction: column;
+	}	
+}
+
+/*------------FLEXBOX STUFF------------------*/
+
+/*---For Parent divs----*/
+
+.row {
+	display: flex;
+}
+
+/*---For Child divs----*/
+
+.col {
+	flex: 1;
+}
